@@ -32,6 +32,7 @@
 
 ## スキルシート
 
+<!-- prettier-ignore-start -->
 ```yaml
 基本的に問題ない:
     - JavaScript
@@ -68,6 +69,7 @@
     - C言語
     - WordPress
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
@@ -75,8 +77,9 @@
 
 ### 派遣スタッフ管理システムリプレース
 
+<!-- prettier-ignore-start -->
 ```yaml
-期間: 2020/04 - now
+期間: 2020/04 - 現在
 概要: 派遣会社の人員が担当する派遣スタッフの勤怠や契約の管理を行う画面と、そのAPIのリプレース
 プロジェクトメンバー:
     PM: 1人
@@ -100,11 +103,13 @@
     - Windows 10
     - Google Chrome
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### 生産管理システムプロト作成
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2020/03 - 2020/04
 概要: 既存の生産管理で数値化されていない部分を集計し、可視化するためのシステムのプロト開発
@@ -112,7 +117,8 @@
     PM: 1人
     PL: 1人
     PG: 1人
-担当: PGとしてMQTT等の各種プロトコルを利用し、
+担当:
+    PGとしてMQTT等の各種プロトコルを利用し、
     生産機器からデータを吸い上げ、DBに登録する内容の実装
     またそれらの技術調査を行いました。
 使用技術:
@@ -123,12 +129,15 @@
     - GitHub Actions
     - Windows 10
 ```
+<!-- prettier-ignore-end -->
 
 ### 美容室向けのサブスクリプションサービス開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2020/03
-概要: iOSアプリを利用した美容室向けのサブスクリプションサービスの開発
+概要:
+    iOSアプリを利用した美容室向けのサブスクリプションサービスの開発
     このプロジェクトは副業として個人で受託しました。（Twitter経由）
 プロジェクトメンバー:
     PM: 1人
@@ -148,20 +157,24 @@
     - VSCode
     - Windows 10
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### 低レベル放射性廃棄物埋設管理システムマイグレーション
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2019/12 - 2020/02
-概要: Windows NT4, VB6, Oracle 8, SPREAD 2.5で動作する既存システムを
+概要:
+    Windows NT4, VB6, Oracle 8, SPREAD 2.5で動作する既存システムを
     Windows10, VB.NET 2019, Oracle 12c, SPREAD 12J向けにマイグレーション
 プロジェクトメンバー:
     PM: 1人
     PL: 1人
     PG: 8人
-担当: PGとして項目数が数十程度のC/Sシステムの画面、帳票、サーバーの実装
+担当:
+    PGとして項目数が数十程度のC/Sシステムの画面、帳票、サーバーの実装
     他にプロジェクト運営の改善提案も行いました。
 使用技術:
     - Windows Form
@@ -176,9 +189,11 @@
     - Windows 10
     - Windows NT4
 ```
+<!-- prettier-ignore-end -->
 
 ### 保険契約情報照会システムマイグレーション
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2019/09 - 2019/11
 概要: IE6で動作する既存システムをIE10向けにマイグレーション
@@ -187,7 +202,8 @@
     PL: 2人
     SE: 4人
     PG: 9人
-担当: PGとしてWebシステム画面のマイグレーションで実装とテストを担当
+担当:
+    PGとしてWebシステム画面のマイグレーションで実装とテストを担当
     他にプロジェクト運営の改善提案も行いました。
     主に冗長な手続きの簡略化や、自動化可能な業務の自動化を行いました。
 使用技術:
@@ -199,11 +215,13 @@
     - IIS 10
     - Redmine
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### IoT オーブンレンジ操作 API 開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2019/04 - 2019/08
 概要: スマホからクラウド経由で操作できるオーブンレンジのAPI新規開発
@@ -227,19 +245,23 @@
     - Redmine
     - Skype
 ```
+<!-- prettier-ignore-end -->
 
 ### IoT 家電操作画面開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2018/02 - 2019/03
-概要: Windowsを搭載した専用タッチパネル（デジタルサイネージのような外観）から
+概要:
+    Windowsを搭載した専用タッチパネル（デジタルサイネージのような外観）から
     クラウド経由でIoT対応家電を操作する画面、APIの開発
 プロジェクトメンバー:
     PM: 1人
     SE: 2人
     PG: 2人
-担当: PGとしてIoT家電を遠隔操作する為のWebアプリで画面の実装を担当
-    クラウドシステムとのやり取りやOAuth認証機能の設計と実装も行いました。
+担当:
+    PGとしてIoT家電を遠隔操作する為のWebアプリで画面の実装を担当
+    クラウドシステムとのやり取りやOAuth認証機能の設計と実装も行いました
 使用技術:
     - Windows 10
     - Ubuntu 18.04 LTS
@@ -254,11 +276,13 @@
     - Firebase
     - Git
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### 日本酒銘柄管理システム開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2018/01 - 2018/01
 概要: 日本酒の一升瓶を差し込むことで酒柄を読み取る装置の開発
@@ -274,17 +298,20 @@
     - VSCode
     - Git
 ```
+<!-- prettier-ignore-end -->
 
 ### デマンドレスポンスシステム開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2017/10 - 2017/12
 概要: 経済産業省と関西電力が推進するデマンドレスポンスの実証実験用システムの開発
 プロジェクトメンバー:
     PG: 1人
-担当: 電力会社と電力制御事業者間でスケジュールに沿って
+担当:
+    電力会社と電力制御事業者間でスケジュールに沿って
     電力制御電文の送受信を行うサーバーシステム・管理用のWeb画面の設計、実装、テストを担当
-    こちらはエンドユーザーから要件をヒアリングし単独で開発しました。
+    こちらはエンドユーザーから要件をヒアリングし単独で開発しました
 使用技術:
     - Windows 8.1
     - Ubuntu 14.04
@@ -299,9 +326,11 @@
     - IIS
     - Git
 ```
+<!-- prettier-ignore-end -->
 
 ### 重機生産部品在庫管理システムリプレース
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2017/06 - 2017/09
 プロジェクトメンバー: 6人
@@ -313,11 +342,13 @@
     - Oracle
     - VSS
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### 生産管理システム開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2017/04 - 2017/05
 プロジェクトメンバー: 8人
@@ -330,9 +361,11 @@
     - SVN
     - Skype
 ```
+<!-- prettier-ignore-end -->
 
 ### 製薬会社売上管理システムマイグレーション
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2017/01 - 2017/03
 プロジェクトメンバー: 4人
@@ -348,9 +381,11 @@
     - IIS
     - SVN
 ```
+<!-- prettier-ignore-end -->
 
 ### 非鉄金属先物取引予測システムリプレース
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2016/07 - 2016/12
 プロジェクトメンバー: 10人
@@ -362,9 +397,11 @@
     - Visual Studio
     - SVN
 ```
+<!-- prettier-ignore-end -->
 
 ### 自動車生産部品在庫管理システム開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2016/05 - 2016/06
 プロジェクトメンバー: 10人
@@ -374,11 +411,13 @@
     - C#.NET
     - バッチ（コマンドプロンプト）
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### 在庫管理システム開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2015/12 - 2016/02
 プロジェクトメンバー: 6人
@@ -391,9 +430,11 @@
     - Visual Studio
     - SVN
 ```
+<!-- prettier-ignore-end -->
 
 ### 官公庁内部システム保守開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2014/04 - 2014/11
 プロジェクトメンバー: 20人
@@ -405,9 +446,11 @@
     - Terasoluna
     - SVN
 ```
+<!-- prettier-ignore-end -->
 
 ### テレビ会議アプリ開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2014/01 - 2014/03
 プロジェクトメンバー: 5人
@@ -419,9 +462,11 @@
     - UWSC
     - SQLite
 ```
+<!-- prettier-ignore-end -->
 
 ### 生命保険契約照会 Web システム開発
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2013/11 - 2013/12
 プロジェクトメンバー: 100人超
@@ -431,11 +476,13 @@
     - IE
     - Oracle
 ```
+<!-- prettier-ignore-end -->
 
 <div class="page-break"></div>
 
 ### 流通システムマイグレーション
 
+<!-- prettier-ignore-start -->
 ```yaml
 期間: 2013/09 - 2013/10
 プロジェクトメンバー: 4人
@@ -446,3 +493,4 @@
     - VB.NET
     - Oracle
 ```
+<!-- prettier-ignore-end -->
