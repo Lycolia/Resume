@@ -39,7 +39,6 @@
     - TypeScript
     - PHP
     - C#.NET
-    - VB.NET
     - SQL
     - Git
     - SVN
