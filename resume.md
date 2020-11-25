@@ -32,6 +32,8 @@
         -   Oracle, SQLServer, MySQL, PostgresSQL, SQLite
     -   メタ言語
         -   HTML, CSS, 正規表現
+    -   学習や趣味で触ったことがあるもの
+        -   React, Jasmine, Jest, C 言語, Golang, mongodb
 
 <div class="page-break"></div>
 
