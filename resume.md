@@ -93,6 +93,37 @@ UnitTest を書くとか、手動テストの一部を UI 自動化ツール で
 
 携わった案件が極めて多いため、直近のみピックアップしています。
 
+### 大手音声コンテンツ配信サービスリプレース
+
+<!-- prettier-ignore-start -->
+```yaml
+期間: 2020/02 - 現在
+概要: -
+    フロント・バックエンドのモダナイズ
+    バックエンドを Perl -> Go
+    フロントエンドを jQuery -> React へ改修する内容
+プロジェクトメンバー:
+    PM: 1人
+    PL: 1人
+    SE: 1人
+    PG: 2人
+    テスター: 1人
+担当:
+    - PG として参画し技術選定:
+      - フロントサイドでの利用技術提案
+    - プロジェクト改善提案:
+      - コミュニケーションツールの改善提案
+      - テストツールの改善提案
+    - クライアントサイドの設計全般
+    - デザインカンプからの実装起こし
+    - サーバーサイドとの設計調整
+使用技術:
+    - React.js 2.0.0, TypeScript, 
+    - Apache, CentOS 7.7, Docker, Git, GitHub, Windows 10
+    - Google Chrome, iOS Safari, Android Google Chrome
+```
+<!-- prettier-ignore-end -->
+
 ### 派遣スタッフ管理システムリプレース
 
 <!-- prettier-ignore-start -->
