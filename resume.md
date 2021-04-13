@@ -24,7 +24,7 @@
 
 -   インフラ
 
-    -   GitHub Actions, Apache, Nginx, Docker
+    -   GitHub Actions, Apache 2, Nginx, Docker
 
 -   コミュニケーション
 
