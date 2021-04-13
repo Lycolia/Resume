@@ -75,6 +75,7 @@
     * テストツールの改善提案
       サーバーサイドの手動テストが curl であり、セッション Cookie が操作できないとのことだったので POSTMAN を提案
       設定を組めば誰でもテストができる上、Cookie の書き換えも容易なため、よりブラウザに近い人力テストが行えるようになった
+    * BPメンバーの簡単な管理
 使用技術:
     - React 17, TypeScript, VSCode
     - nginx, CentOS 6.6, Docker, Git, GitHub, Windows 10
