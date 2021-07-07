@@ -1,35 +1,29 @@
 ## 概要
 
-現在、Web 系の受託開発会社で開発業務を⾏っているプログラマです。  
+現在、Web 系の受託開発会社で開発業務を⾏っているプログラマで、実務経験は 2013 年から今に至るまであります。  
 直近では Laravel や React、Vue.js、Angular を使った Web 系の開発を行っております。
 
 実装経験としては VB6 といったレガシーなものから、TypeScript や React といったモダンなもの、フロントエンドからバックエンド、オブジェクト指向や関数指向などまで、幅広い開発経験があり、おおよそ大抵の開発は卒なくできると思います。
+OAS を用いた API 仕様や、既存実装の解析、フォーマットを問わず設計書への落とし込みなども可能です。
 
 また自動化や設計、技術選定、低レイヤーに対しても多少の知識や経験があります。
 
 ## 実務経験スキル
 
 -   開発言語・FW
-
     -   TypeScript, JavaScript, Node.js, React.js
     -   Vue.js, Nuxt.js, Angular, jQuery, Jest
     -   PHP, Laravel, Python, C#.NET, VB.NET, VB6
-
+    -   Golang, Perl
 -   開発環境
-
     -   Windows: NT4, XP, Vista, 7, 8, 8.1, 10
     -   Linux: Ubuntu, CentOS
     -   IDE: VSCode, VisualStudio, Eclipse
     -   CVS: Git, SVN
-
 -   インフラ
-
     -   GitHub Actions, Apache 2, Nginx, Docker
-
 -   コミュニケーション
-
     -   GitHub, GitLab, Slack, Redmine, Discord, Skype
-
 -   その他
     -   SQL
         -   Oracle, SQLServer, MySQL, PostgresSQL, SQLite
@@ -38,9 +32,11 @@
     -   学習や趣味で触ったことがあるもの
         -   Jasmine, C 言語, Golang, mongodb
 
+<div class="page-break"></div>
+
 ## 職務経歴
 
-携わった案件が極めて多いため、直近のみピックアップしています。
+携わった案件が極めて多いため、主に直近のみピックアップしています。
 
 ### 大手音声コンテンツ配信サービスリプレース
 
@@ -50,7 +46,7 @@
 概要: |-
     フロント・バックエンドのモダナイズ
     バックエンドを Perl -> Go
-    フロントエンドを jQuery -> React へ改修する内容
+    フロントエンドを Perl, jQuery -> React へ改修する内容
 プロジェクトメンバー:
     PM: 1人
     PL: 1人
@@ -67,21 +63,31 @@
     
     * クライアントサイドの設計全般
       コンポーネントやデータ、エラーなど必要であろう全ての設計を行った
-    * デザインカンプからの実装起こし
+    * デザインカンプ（Figma)からの実装起こし
     * サーバーサイドとの設計調整
+      * 現行Perl実装を解析しOAS作成
+      * 一部APIをGolangで実装
+      * フロントとの結合に際し、バックエンドエンジニアとの意識合わせ
 
     * プロジェクト改善提案
-    * コミュニケーションツールの改善提案
+      * CI の導入提案
+      * レビューやチケット管理の導入提案
     * テストツールの改善提案
-      サーバーサイドの手動テストが curl であり、セッション Cookie が操作できないとのことだったので POSTMAN を提案
-      設定を組めば誰でもテストができる上、Cookie の書き換えも容易なため、よりブラウザに近い人力テストが行えるようになった
-    * BPメンバーの簡単な管理
-使用技術:
-    - React 17, TypeScript, VSCode
-    - nginx, CentOS 6.6, Docker, Git, GitHub, Windows 10
-    - Google Chrome, iOS Safari, Android Google Chrome
+      サーバーサイドの手動テストが curl であり、
+      セッション Cookie が操作できないとのことだったので POSTMAN を提案
+      設定を組めば誰でもテストができる上、
+      Cookie の書き換えも容易なため、
+      よりブラウザに近い人力テストが行えるようになった
+    * 他メンバーのサポート
+使用技術: |-
+    * React 17, TypeScript, VSCode
+    * nginx, CentOS 6.6, Docker, Git, GitHub, Windows 10
+    * Google Chrome, iOS Safari, Android Google Chrome
+    * Figma, OpenAPI Specification
 ```
 <!-- prettier-ignore-end -->
+
+<div class="page-break"></div>
 
 ### 派遣スタッフ管理システムリプレース
 
@@ -99,10 +105,10 @@
     UI 改善については幾つか採用されました。
 
     その他に言語未経験者やロースキルの方への技術サポートもしていました。
-使用技術:
-    - Nuxtjs 2.0.0, JavaScript, Laravel 5.6, PHP 7.1.3, SQL Server 2017
-    - Apache, CentOS 7.7, Docker, Git, GitLab, Windows 10
-    - Google Chrome, Edge, IE11, Safari
+使用技術: |-
+    * Nuxtjs 2.0.0, JavaScript, Laravel 5.6, PHP 7.1.3, SQL Server 2017
+    * Apache, CentOS 7.7, Docker, Git, GitLab, Windows 10
+    * Google Chrome, Edge, IE11, Safari
 ```
 <!-- prettier-ignore-end -->
 
@@ -120,8 +126,8 @@
     PGとしてMQTT等の各種プロトコルを利用し、
     生産機器からデータを吸い上げ、DBに登録する内容の実装
     またそれらの技術調査を行いました。
-使用技術:
-    - C#.NET 8.0, Windows Form, MQTT, GitHub, GitHub Actions, Windows 10
+使用技術: |-
+    * C#.NET 8.0, Windows Form, MQTT, GitHub, GitHub Actions, Windows 10
 ```
 <!-- prettier-ignore-end -->
 
@@ -141,10 +147,12 @@
     * ユーザー登録・更新・削除、決済情報のStripe連携、各種アクションに対するメール送信
     * ユーザーが購読するサブスクリプションプランの選択
     * 美容室の予約
-使用技術:
-    - Laravel 6.0, PHP 7.2, Stripe, GitHub, AWS, Postman, VSCode, Windows 10
+使用技術: |-
+    * Laravel 6.0, PHP 7.2, Stripe, GitHub, AWS, Postman, VSCode, Windows 10
 ```
 <!-- prettier-ignore-end -->
+
+<div class="page-break"></div>
 
 ### 低レベル放射性廃棄物埋設管理システムマイグレーション
 
@@ -161,9 +169,9 @@
 担当: |-
     PGとして項目数が数十程度のC/Sシステムの画面、帳票、サーバーの実装
     他にプロジェクト運営の改善提案も行いました。
-使用技術:
-    - Windows Form, VB 6.0, VB.NET 16, SPREAD 2.5, SPREAD 12J
-    - ActiveReports 12J, Oracle 8, Oracle 12c, Git, Windows 10, Windows NT4
+使用技術: |-
+    * Windows Form, VB 6.0, VB.NET 16, SPREAD 2.5, SPREAD 12J
+    * ActiveReports 12J, Oracle 8, Oracle 12c, Git, Windows 10, Windows NT4
 ```
 <!-- prettier-ignore-end -->
 
@@ -183,9 +191,9 @@
     その他にUI改善やプロジェクト運営の改善提案も行い
     プロジェクト運営については冗長な手続きの簡略化や、
     自動化可能な業務の自動化を行いました。
-使用技術:
-    - Windows 10, IE 10, C#.NET 6, ASP.NET 6, SQL Server 2016
-    - IIS 10, Redmine
+使用技術: |-
+    * Windows 10, IE 10, C#.NET 6, ASP.NET 6, SQL Server 2016
+    * IIS 10, Redmine
 ```
 <!-- prettier-ignore-end -->
 
@@ -202,11 +210,13 @@
 担当: |-
     PGとして既存別システムのDBの内容を新規システムに流用できるようにデータ解析し、
     マイグレーションを行うためのツールの実装を担当
-使用技術: -
-    - Windows 10, Python 2.7.3, Jupyter Notebook, Open API 3.0
-    - MySQL, Amazon Aurora, AWS, Slack, Azure DevOps, Redmine, Skype
+使用技術: |-
+    * Windows 10, Python 2.7.3, Jupyter Notebook, Open API 3.0
+    * MySQL, Amazon Aurora, AWS, Slack, Azure DevOps, Redmine, Skype
 ```
 <!-- prettier-ignore-end -->
+
+<div class="page-break"></div>
 
 ### IoT 家電操作画面開発
 
@@ -223,8 +233,68 @@
 担当: |-
     PGとしてIoT家電を遠隔操作する為のWebアプリで画面の実装を担当
     クラウドシステムとのやり取りやOAuth認証機能の設計と実装も行いました
-使用技術:
-    - Windows 10, Ubuntu 18.04 LTS, TypeScript, Angular 5-7
-    - Jasmine, nginx, ffmpeg, GStream, Firebase, Git
+使用技術: |-
+    * Windows 10, Ubuntu 18.04 LTS, TypeScript, Angular 5-7
+    * Jasmine, nginx, ffmpeg, GStream, Firebase, Git
+```
+<!-- prettier-ignore-end -->
+
+### デマンドレスポンスサーバー開発
+
+<!-- prettier-ignore-start -->
+```yaml
+期間: 2017/02 - 2018/02
+概要: |-
+    電力会社との間で消費電力の予実をやりとりするシステムの開発を行いました
+プロジェクトメンバー:
+    SE: 1人
+    PG: 1人
+担当: |-
+    PGとしてエンドユーザー先に一人で参画し
+    エンドユーザーのSEと1:1でやり取りし、要件の整理や基本設計を行い
+    それらを実装しました
+
+    具体的な内容としてはOpenADRを利用した関電とユーザーシステム間での
+    電力予実のデータ通信やバッチ処理を行うサーバーの開発を行いました
+使用技術: |-
+    * Windows 8.1, C#.NET, VB.NET, Quartz.NET
+    * OpenADR, XML
+```
+<!-- prettier-ignore-end -->
+
+<div class="page-break"></div>
+
+### 各種プログラマー
+
+<!-- prettier-ignore-start -->
+```yaml
+期間: 2016/05 - 2017/02
+概要: |-
+    様々なシステムの実装
+担当: |-
+    PGとして客先に常駐し、基本設計ないし詳細設計を元に
+    C#.NETないしVB.NETを使ったクラサバシステムの
+    画面実装を主に行った
+使用技術: |-
+    * Windows, C#.NET, VB.NET, ASP.NET, Windows Form
+```
+<!-- prettier-ignore-end -->
+
+### 各種テスター
+
+<!-- prettier-ignore-start -->
+```yaml
+期間: 2013/09 - 2015/02
+概要: |-
+    * 複数のプロジェクトでのWindows上で動作する各種クラサバ・帳票システムなどのテスター業務
+    * 公共系開発でのシステムライブラリアン業務
+担当: |-
+    * テスト仕様書に沿ったテストの実施
+    * 不具合箇所の特定
+    * テストデータの作成
+    * 開発資材の整理、ビルド、不具合調査
+使用技術: |-
+    * 各種Windows, Oracle DB, SQL Server
+    * C#.NET, VB.NET, Java, SVN
 ```
 <!-- prettier-ignore-end -->
